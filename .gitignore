@@ -1,1 +1,18 @@
-.txt
+# 結果・データファイル
+*.txt
+*.mat
+*.pkl
+
+# 学習済みモデル
+*.pth
+
+# 学習データ・テストデータ・推論結果
+learning_data/
+saved_models_pytorch/
+test_data/
+py/test/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+*.pyo
